@@ -5,11 +5,14 @@ const Navbar = () => {
     <nav className="flex items-center justify-between px-8 py-6 text-white max-w-7xl mx-auto w-full relative z-20">
       {/* Brand Logo */}
       <div className="flex items-center gap-2 cursor-pointer">
-        <div className="w-8 h-8 bg-[#cfff04] rounded-tr-xl rounded-bl-xl flex items-center justify-center">
-          <div className="w-4 h-4 bg-[#113de5] rounded-full"></div>
-        </div>
-        <span className="text-2xl font-bold tracking-wide">ByteSpace</span>
-      </div>
+  {/* Logo image replacing the CSS placeholder */}
+  <img 
+    src="/Vector.png" 
+    alt="ByteSpace Logo" 
+    className="w-8 h-8 md:w-10 md:h-10 object-contain" 
+  />
+  <span className="text-2xl font-bold tracking-wide">ByteSpace</span>
+</div>
 
       {/* Center Navigation Links */}
       <ul className="hidden md:flex items-center gap-8 text-sm font-medium">
