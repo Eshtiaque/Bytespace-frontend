@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const CTASection = () => {
   return (
@@ -49,9 +50,11 @@ const CTASection = () => {
         </p>
         
         
+        <Link to="/creators">
         <button className="bg-[#cfff04] text-black font-semibold text-sm md:text-base px-8 md:px-10 py-3 md:py-3.5 rounded-full hover:bg-[#b8e600] transition-colors shadow-lg hover:shadow-xl">
           Join as Creator
         </button>
+        </Link>
 
       </div>
     </section>

@@ -3,6 +3,7 @@ import Main from '../layouts/Main'
 import Home from '../components/Home/Home'
 import Search from '../components/Search/Search'
 import Creators from '../components/Creators/Creators'
+import NotFound from '../components/NotFound/NotFound'
 
 export const router = createBrowserRouter([
   {
@@ -21,7 +22,23 @@ export const router = createBrowserRouter([
         {
           path: '/creators',
           element: <Creators />,
+        },
+        {
+          path: '/courses',
+          element: <Search />,
+        },
+        {
+          path:'*',
+          element:<NotFound/>
         }
   ]
   },
+  // {
+  //   path: '/login',
+  //   element: <Login />,
+  // },
+  // {
+  //   path: '/signup',
+  //   element: <Signup />,
+  // }
 ])
