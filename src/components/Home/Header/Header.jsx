@@ -1,9 +1,18 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
-    <header className="relative lg:flex-1 lg:min-h-0 w-full max-w-full mx-auto flex flex-col items-center justify-start lg:justify-between overflow-hidden pt-4 lg:pt-4">
-      {/* 1. TOP SECTION (Text & Search) */}
+<header className="relative lg:flex-1 lg:min-h-0 w-full max-w-full mx-auto flex flex-col items-center justify-start lg:justify-between overflow-hidden pt-4 lg:pt-4 bg-[#113de5]">
+      
+      <div 
+        className="absolute inset-0 z-0 opacity-[0.07] pointer-events-none"
+        style={{
+          backgroundImage: 'linear-gradient(rgba(255,255,255,1) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,1) 1px, transparent 1px)',
+          backgroundSize: '60px 60px'
+        }}
+      ></div>
+            {/* 1. TOP SECTION (Text & Search) */}
       <div className="relative z-30 flex flex-col items-center text-center px-4 w-full mt-2 lg:mt-8">
         
         {/* Texts */}
@@ -26,9 +35,12 @@ const Header = () => {
               className="w-full bg-transparent focus:outline-none text-sm text-gray-800 placeholder-gray-400 ml-2 h-full"
             />
           </div>
-          <button className="bg-[#cfff04] text-black font-bold text-sm px-6 md:px-8 h-11 md:h-12 rounded-full hover:bg-[#b8e600] transition-colors whitespace-nowrap shadow-xl shrink-0">
-            Search
-          </button>
+          <Link
+  to="/search" 
+  className="bg-[#cfff04] text-black font-bold text-sm px-6 md:px-8 h-11 md:h-12 rounded-full hover:bg-[#b8e600] transition-colors whitespace-nowrap shadow-xl shrink-0 flex items-center justify-center inline-flex"
+>
+  Search
+</Link>
         </div>
       </div>
 

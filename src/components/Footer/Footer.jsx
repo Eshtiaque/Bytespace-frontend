@@ -31,9 +31,12 @@ const Footer = () => {
     placeholder="Enter your email" 
     className="w-full sm:flex-1 h-10 md:h-11 px-5 rounded-full border border-gray-300 focus:outline-none focus:border-[#113de5] text-[13px]"
   />
-  <button className="w-full sm:w-auto h-10 md:h-11 bg-[#cfff04] text-black font-semibold text-[14px] px-10 md:px-12 rounded-full hover:bg-[#b8e600] transition-colors">
+  <Link 
+    to="/search" 
+    className="w-full sm:w-auto h-10 md:h-11 bg-[#cfff04] text-black font-semibold text-[14px] px-10 md:px-12 rounded-full hover:bg-[#b8e600] transition-colors flex items-center justify-center inline-flex"
+  >
     Search
-  </button>
+  </Link>
 </div>
             
             <p className="text-[11px] md:text-[12px] text-gray-500 leading-relaxed">
