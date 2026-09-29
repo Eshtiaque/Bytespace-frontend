@@ -3,7 +3,6 @@ import React from 'react';
 const Header = () => {
   return (
     <header className="relative lg:flex-1 lg:min-h-0 w-full max-w-full mx-auto flex flex-col items-center justify-start lg:justify-between overflow-hidden pt-4 lg:pt-4">
-      
       {/* 1. TOP SECTION (Text & Search) */}
       <div className="relative z-30 flex flex-col items-center text-center px-4 w-full mt-2 lg:mt-8">
         
