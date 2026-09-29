@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -7,6 +8,7 @@ const Navbar = () => {
     <nav className="flex items-center justify-between px-4 md:px-8 py-4 md:py-6 text-white max-w-7xl mx-auto w-full relative z-50">
       
       {/* Brand Logo */}
+     <Link to="/">
       <div className="flex items-center gap-2 cursor-pointer z-50">
         <img 
           src="/Vector.png" 
@@ -15,13 +17,26 @@ const Navbar = () => {
         />
         <span className="text-xl md:text-2xl font-bold tracking-wide">ByteSpace</span>
       </div>
+     </Link>
 
       {/* Center Navigation Links - Desktop Only */}
       <ul className="hidden md:flex items-center gap-8 text-sm font-medium">
-        <li className="cursor-pointer hover:text-gray-300 transition-colors">Home</li>
-        <li className="cursor-pointer text-gray-300 hover:text-white transition-colors">Courses</li>
-        <li className="cursor-pointer text-gray-300 hover:text-white transition-colors">Creators</li>
-      </ul>
+  <li>
+    <Link to="/" className="cursor-pointer hover:text-gray-300 transition-colors">
+      Home
+    </Link>
+  </li>
+  <li>
+    <Link to="/courses" className="cursor-pointer text-gray-300 hover:text-white transition-colors">
+      Courses
+    </Link>
+  </li>
+  <li>
+    <Link to="/creators" className="cursor-pointer text-gray-300 hover:text-white transition-colors">
+      Creators
+    </Link>
+  </li>
+</ul>
 
       {/* Right Action Buttons & Mobile Toggle */}
       <div className="flex items-center gap-4 md:gap-6 text-sm font-medium z-50">
