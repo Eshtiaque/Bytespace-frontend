@@ -42,23 +42,26 @@ const Search = () => {
 
           {/* Search Input and Dropdown */}
           <div className="flex flex-col sm:flex-row items-center gap-3 w-full max-w-2xl">
-            <div className="flex-1 w-full bg-white rounded-full flex items-center px-5 h-11 md:h-12 shadow-lg">
-              <svg className="w-5 h-5 text-gray-400 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
-              </svg>
-              <input 
-                type="text" 
-                placeholder="Search" 
-                className="w-full bg-transparent focus:outline-none ml-3 text-sm md:text-base text-gray-800 placeholder-gray-400 h-full"
-              />
-            </div>
-            <button className="w-full sm:w-auto bg-[#cfff04] text-black font-semibold text-sm md:text-base px-6 h-11 md:h-12 rounded-full flex items-center justify-center gap-2 hover:bg-[#b8e600] transition-colors shrink-0 shadow-lg">
-              Courses
-              <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
-              </svg>
-            </button>
-          </div>
+  
+  <div className="flex-1 w-full bg-white rounded-full flex items-center px-5 h-12 md:h-12 lg:h-11 shadow-lg">
+    <svg className="w-5 h-5 text-gray-400 shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+    </svg>
+    <input 
+      type="text" 
+      placeholder="Search" 
+      className="w-full lg:h-full md:h-full h-12 bg-transparent focus:outline-none ml-3 text-sm md:text-base text-gray-800 placeholder-gray-400 "
+    />
+  </div>
+
+  <button className="w-auto sm:w-auto bg-[#cfff04] text-black font-semibold text-sm md:text-base px-8 h-10 md:h-12 lg:h-11 rounded-full flex items-center justify-center gap-2 hover:bg-[#b8e600] transition-colors shrink-0 shadow-lg">
+    Courses
+    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
+    </svg>
+  </button>
+  
+</div>
         </div>
       </div>
 
