@@ -4,6 +4,8 @@ import Home from '../components/Home/Home'
 import Search from '../components/Search/Search'
 import Creators from '../components/Creators/Creators'
 import NotFound from '../components/NotFound/NotFound'
+import Login from '../components/Login/Login'
+import Signup from '../components/Signup/Signup'
 
 export const router = createBrowserRouter([
   {
@@ -33,12 +35,12 @@ export const router = createBrowserRouter([
         }
   ]
   },
-  // {
-  //   path: '/login',
-  //   element: <Login />,
-  // },
-  // {
-  //   path: '/signup',
-  //   element: <Signup />,
-  // }
+  {
+    path: '/login',
+    element: <Login />,
+  },
+  {
+    path: '/signup',
+    element: <Signup />,
+  }
 ])

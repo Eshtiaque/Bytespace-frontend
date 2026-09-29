@@ -40,8 +40,12 @@ const Navbar = () => {
 
       {/* Right Action Buttons & Mobile Toggle */}
       <div className="flex items-center gap-4 md:gap-6 text-sm font-medium z-50">
-        <button className="hover:text-gray-300 transition-colors hidden sm:block">Sign In</button>
-        <button className="hover:text-gray-300 transition-colors hidden sm:block">Join Us</button>
+        <Link to="/login" className="hover:text-gray-300 transition-colors hidden sm:block">
+  Sign In
+</Link>
+<Link to="/signup" className="hover:text-gray-300 transition-colors hidden sm:block">
+  Join Us
+</Link>
         
         {/* Cart Icon */}
         <button className="p-2 hover:bg-white/10 rounded-full transition-colors relative">
@@ -74,8 +78,12 @@ const Navbar = () => {
           
           {/* Sign In & Join Us for extra small screens */}
           <hr className="w-1/2 border-white/20 my-1 sm:hidden" />
-          <button className="cursor-pointer text-gray-300 hover:text-white transition-colors sm:hidden">Sign In</button>
-          <button className="cursor-pointer text-gray-300 hover:text-white transition-colors sm:hidden">Join Us</button>
+          <Link to="/login" className="cursor-pointer text-gray-300 hover:text-white transition-colors sm:hidden">
+            Sign In
+          </Link>
+          <Link to="/signup" className="cursor-pointer text-gray-300 hover:text-white transition-colors sm:hidden">
+            Join Us
+          </Link>
         </div>
       )}
     </nav>
