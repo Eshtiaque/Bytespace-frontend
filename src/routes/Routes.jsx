@@ -6,6 +6,7 @@ import Creators from '../components/Creators/Creators'
 import NotFound from '../components/NotFound/NotFound'
 import Login from '../components/Login/Login'
 import Signup from '../components/Signup/Signup'
+import CourseDetails from '../components/CourseDetails/CourseDetails'
 
 export const router = createBrowserRouter([
   {
@@ -27,7 +28,7 @@ export const router = createBrowserRouter([
         },
         {
           path: '/courses',
-          element: <Search />,
+          element: <CourseDetails />,
         },
         {
           path:'*',
