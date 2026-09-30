@@ -1,8 +1,8 @@
 import React from 'react';
-import video1 from '../assets/course/video1.jpg';
-import video2 from '../assets/course/video2.jpg';
-import video3 from '../assets/course/video3.jpg';
-import video4 from '../assets/course/video4.jpg';
+import video1 from '../../../src/assets/course/video1.jpg';
+import video2 from '../../../src/assets/course/video2.jpg';
+import video3 from '../../../src/assets/course/video3.jpg';
+import video4 from '../../../src/assets/course/video4.jpg';
 
 const AboutTab = () => {
   return (
