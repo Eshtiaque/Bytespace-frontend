@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "../src/assets/cardImage/card1.jpg",
+    "image": "/cardImage/card1.jpg",
     "lessons": "17 Lessons",
     "duration": "2 hours 16 mins",
     "comments": "59 Comments",
@@ -21,7 +21,7 @@
   },
   {
     "id": 2,
-    "image": "../src/assets/cardImage/card2.jpg",
+    "image": "/cardImage/card2.jpg",
     "lessons": "17 Lessons",
     "duration": "2 hours 16 mins",
     "comments": "59 Comments",
@@ -41,7 +41,7 @@
   },
   {
     "id": 3,
-    "image": "../src/assets/cardImage/card3.jpg",
+    "image": "/cardImage/card3.jpg",
     "lessons": "17 Lessons",
     "duration": "2 hours 16 mins",
     "comments": "59 Comments",
@@ -61,7 +61,7 @@
   },
   {
     "id": 4,
-    "image": "../src/assets/cardImage/card4.jpg",
+    "image": "/cardImage/card4.jpg",
     "lessons": "17 Lessons",
     "duration": "2 hours 16 mins",
     "comments": "59 Comments",
@@ -81,7 +81,7 @@
   },
   {
     "id": 5,
-    "image": "../src/assets/cardImage/card5.jpg",
+    "image": "/cardImage/card5.jpg",
     "lessons": "17 Lessons",
     "duration": "2 hours 16 mins",
     "comments": "59 Comments",
@@ -101,7 +101,7 @@
   },
   {
     "id": 6,
-    "image": "../src/assets/cardImage/card6.jpg",
+    "image": "/cardImage/card6.jpg",
     "lessons": "17 Lessons",
     "duration": "2 hours 16 mins",
     "comments": "59 Comments",
@@ -121,7 +121,7 @@
   },
   {
     "id": 7,
-    "image": "../src/assets/cardImage/card1.jpg",
+    "image": "/cardImage/card1.jpg",
     "lessons": "17 Lessons",
     "duration": "2 hours 16 mins",
     "comments": "59 Comments",
@@ -141,7 +141,7 @@
   },
   {
     "id": 8,
-    "image": "../src/assets/cardImage/card2.jpg",
+    "image": "/cardImage/card2.jpg",
     "lessons": "17 Lessons",
     "duration": "2 hours 16 mins",
     "comments": "59 Comments",
@@ -161,7 +161,7 @@
   },
   {
     "id": 9,
-    "image": "../src/assets/cardImage/card3.jpg",
+    "image": "/cardImage/card3.jpg",
     "lessons": "17 Lessons",
     "duration": "2 hours 16 mins",
     "comments": "59 Comments",
@@ -181,7 +181,7 @@
   },
   {
     "id": 10,
-    "image": "../src/assets/cardImage/card4.jpg",
+    "image": "/cardImage/card4.jpg",
     "lessons": "17 Lessons",
     "duration": "2 hours 16 mins",
     "comments": "59 Comments",
@@ -201,7 +201,7 @@
   },
   {
     "id": 11,
-    "image": "../src/assets/cardImage/card5.jpg",
+    "image": "/cardImage/card5.jpg",
     "lessons": "17 Lessons",
     "duration": "2 hours 16 mins",
     "comments": "59 Comments",
@@ -221,7 +221,7 @@
   },
   {
     "id": 12,
-    "image": "../src/assets/cardImage/card6.jpg",
+    "image": "/cardImage/card6.jpg",
     "lessons": "17 Lessons",
     "duration": "2 hours 16 mins",
     "comments": "59 Comments",
@@ -241,7 +241,7 @@
   },
   {
     "id": 13,
-    "image": "../src/assets/cardImage/card1.jpg",
+    "image": "/cardImage/card1.jpg",
     "lessons": "17 Lessons",
     "duration": "2 hours 16 mins",
     "comments": "59 Comments",
@@ -261,7 +261,7 @@
   },
   {
     "id": 14,
-    "image": "../src/assets/cardImage/card2.jpg",
+    "image": "/cardImage/card2.jpg",
     "lessons": "17 Lessons",
     "duration": "2 hours 16 mins",
     "comments": "59 Comments",
@@ -281,7 +281,7 @@
   },
   {
     "id": 15,
-    "image": "../src/assets/cardImage/card3.jpg",
+    "image": "/cardImage/card3.jpg",
     "lessons": "17 Lessons",
     "duration": "2 hours 16 mins",
     "comments": "59 Comments",
@@ -301,7 +301,7 @@
   },
   {
     "id": 16,
-    "image": "../src/assets/cardImage/card4.jpg",
+    "image": "/cardImage/card4.jpg",
     "lessons": "17 Lessons",
     "duration": "2 hours 16 mins",
     "comments": "59 Comments",
@@ -321,7 +321,7 @@
   },
   {
     "id": 17,
-    "image": "../src/assets/cardImage/card5.jpg",
+    "image": "/cardImage/card5.jpg",
     "lessons": "17 Lessons",
     "duration": "2 hours 16 mins",
     "comments": "59 Comments",
@@ -341,7 +341,7 @@
   },
   {
     "id": 18,
-    "image": "../src/assets/cardImage/card6.jpg",
+    "image": "/cardImage/card6.jpg",
     "lessons": "17 Lessons",
     "duration": "2 hours 16 mins",
     "comments": "59 Comments",

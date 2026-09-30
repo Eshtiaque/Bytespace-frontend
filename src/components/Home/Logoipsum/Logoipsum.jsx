@@ -2,11 +2,11 @@ import React from 'react';
 
 const Logoipsum = () => {
   const logos = [
-    "../../../assets/five-logos/Frame.png",
-    "../../../assets/five-logos/Frame1.png",
-    "../../../assets/five-logos/Frame2.png",
-    "../../../assets/five-logos/Frame3.png",
-    "../../../assets/five-logos/Frame4.png",
+    "/five-logos/Frame.png",
+    "/five-logos/Frame1.png",
+    "/five-logos/Frame2.png",
+    "/five-logos/Frame3.png",
+    "/five-logos/Frame4.png",
   ];
 
   return (
