@@ -3,6 +3,8 @@ import AboutTab from './AboutTab';
 import LessonTab from './LessonTab';
 import ReviewsTab from './ReviewsTab';
 import SidebarCard from './SidebarCard';
+import videomain from '../../../src/assets/course/videomain.jpg';
+
 
 
 const CourseDetails = () => {
@@ -80,7 +82,7 @@ const CourseDetails = () => {
             <div className="flex-1 w-full">
               <div className="w-full lg:w-[90%] aspect-[16/9] bg-gray-200 rounded-[24px] shadow-2xl relative overflow-hidden group mt-auto">
                 <img 
-                  src="/src/assets/course/videomain.jpg" 
+                  src={videomain} 
                   alt="Course Video" 
                   className="w-full h-full object-cover"
                 />

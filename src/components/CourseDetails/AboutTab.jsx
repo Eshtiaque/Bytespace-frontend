@@ -1,4 +1,8 @@
 import React from 'react';
+import video1 from '../assets/course/video1.jpg';
+import video2 from '../assets/course/video2.jpg';
+import video3 from '../assets/course/video3.jpg';
+import video4 from '../assets/course/video4.jpg';
 
 const AboutTab = () => {
   return (
@@ -12,10 +16,10 @@ const AboutTab = () => {
 
       <h3 className="text-xl font-bold text-gray-900 mb-4">Sneak Peak</h3>
       <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-10">
-        <div className="aspect-video bg-gray-200 rounded-lg overflow-hidden"><img src="/src/assets/course/video1.jpg" alt="Sneak Peek" className="w-full h-full object-cover"/></div>
-        <div className="aspect-video bg-gray-200 rounded-lg overflow-hidden"><img src="/src/assets/course/video2.jpg" alt="Sneak Peek" className="w-full h-full object-cover"/></div>
-        <div className="aspect-video bg-gray-200 rounded-lg overflow-hidden"><img src="/src/assets/course/video3.jpg" alt="Sneak Peek" className="w-full h-full object-cover"/></div>
-        <div className="aspect-video bg-gray-200 rounded-lg overflow-hidden"><img src="/src/assets/course/video4.jpg" alt="Sneak Peek" className="w-full h-full object-cover"/></div>
+        <div className="aspect-video bg-gray-200 rounded-lg overflow-hidden"><img src={video1} alt="Sneak Peek" className="w-full h-full object-cover"/></div>
+        <div className="aspect-video bg-gray-200 rounded-lg overflow-hidden"><img src={video2} alt="Sneak Peek" className="w-full h-full object-cover"/></div>
+        <div className="aspect-video bg-gray-200 rounded-lg overflow-hidden"><img src={video3} alt="Sneak Peek" className="w-full h-full object-cover"/></div>
+        <div className="aspect-video bg-gray-200 rounded-lg overflow-hidden"><img src={video4} alt="Sneak Peek" className="w-full h-full object-cover"/></div>
       </div>
 
       <h3 className="text-xl font-bold text-gray-900 mb-4">Key Points</h3>
