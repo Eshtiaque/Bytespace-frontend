@@ -15,9 +15,12 @@ const Signup = () => {
 
       <div className="absolute top-6 left-6 lg:top-10 lg:left-12 xl:left-30 z-20">
         <Link to="/" className="inline-block">
-          <svg className="w-10 h-10 text-[#cfff04]" viewBox="0 0 40 40" fill="currentColor">
-            <path d="M10 0v40h12c8.8 0 16-7.2 16-16s-7.2-16-16-16h-4V0h-8zm8 16h4c4.4 0 8 3.6 8 8s-3.6 8-8 8h-4V16z"/>
-          </svg>
+          <img 
+      src="/Vector.png" 
+      alt="ByteSpace Logo" 
+      className="w-8 h-8 md:w-10 md:h-10 object-contain" 
+    />
+
         </Link>
       </div>
 

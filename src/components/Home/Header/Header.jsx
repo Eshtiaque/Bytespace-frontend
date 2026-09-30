@@ -19,7 +19,7 @@ const Header = () => {
         <h1 className="text-3xl md:text-4xl lg:text-[44px] font-extrabold leading-[1.2] mb-3 text-white tracking-wide">
           Get Access to Hundreds <br /> Courses Available
         </h1>
-        <p className="text-[13px] md:text-[14px] lg:text-sm font-light text-gray-200 max-w-xl mb-6 px-2">
+        <p className="text-[13px] md:text-[14px] lg:text-sm font-light text-gray-200 max-w-2xl mb-6 px-2">
           Unlock your creativity, gain valuable knowledge, and grow your business with our wide range of courses.
         </p>
 
